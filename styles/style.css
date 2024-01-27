@@ -1,0 +1,95 @@
+
+a{
+	color:#0ff;
+}
+
+
+#workshop{
+	margin:10px 30px;
+	text-align:center;
+}
+
+div.script {
+  backdrop-filter: blur(8px);
+	border-color:#fff;
+	border-radius: 20px;
+	border-style: solid;
+	color:#fff;
+	margin:1%;
+	padding: 10px;
+	width:20%;
+	min-width:200px;
+	display:inline-block;
+	text-align: center;
+}
+
+div.script:hover{
+	transform: rotate(1deg);
+}
+
+div.script img{
+	width:160px;
+	height:120px;
+	border-radius:2px;
+}
+
+div.script img[src*=".gif"]{
+	border-radius: 8px;
+}
+
+
+div.script a{
+	color:#ffb734;
+	text-decoration: none;
+}
+div.script a[href^="https://yaya-cout.github.io/Upsilon-Workshop/"]{
+	color:#69a4d2;
+}
+
+
+div.script a:hover{
+	text-decoration: underline;
+}
+
+header *, footer *{
+	margin: 0px 0px 0px 00px;
+	padding: 10px;
+	color:#fff;
+}
+
+
+span.tag{
+	border-radius: 100px;
+	padding: 6px;
+	border: 2px solid white;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+div.script p{
+	line-height: 45px;
+}
+
+#tags{
+	background-color: #666;
+	padding: 0px;
+	margin: 10px;
+	line-height: 30px;
+	border-radius: 10px;
+}
+
+#tags>p{
+	padding: 10px;
+	margin:0px;
+}
+
+.tag_title{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+:where(body, iframe, pre, img, svg, video, canvas, select) {
+		max-width: 100%;
+		overflow: auto;
+		word-break: break-word;
+}
