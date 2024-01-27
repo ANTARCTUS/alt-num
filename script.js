@@ -92,7 +92,7 @@ function show(scripts2show = scripts) {
 			link = `https://my.numworks.com/python/${script["author"]}/${script["name"]}`;
 			authorLink = `https://my.numworks.com/python/${script["author"]}`;
 		}
-		let imgSrc = '/images/' + (script["extension"] || script["author"] + "-" + script["name"] + ".png");
+		let imgSrc = 'https://antarctus.github.io/alt-num/images/' + (script["extension"] || script["author"] + "-" + script["name"] + ".png");
 		addDiv += `<h2><a href="${link}">${script["name"]}</a> de <a href="${authorLink}">${script["author"]}</a> </h2>`;
 		addDiv += `<p><img alt="screenshot of ${script["name"]}" src="${imgSrc}" loading="lazy"><br>`;
 		for (var j = 0; j < (script["tags"] || []).length; j++) {
@@ -155,7 +155,7 @@ function update() {
 	}
 
 	// Current URL: https://numworks.antarctus.repl.co/
-	const nextURL = 'https://numworks.antarctus.repl.co/' + getQuery;
+	const nextURL = 'https://antarctus.github.io/alt-num/' + getQuery;
 	const nextTitle = 'Le shop alternatif';
 	const nextState = { additionalInformation: 'Updated the URL with JS' };
 
