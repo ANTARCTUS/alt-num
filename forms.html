@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>Voici une liste exhaustives des OS alternatifs</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/general.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+$.ajax({
+	type: "POST",
+  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  data: {
+    "key": "UfS8xpHMVNwqr-s7etovRw",
+    "message": {
+      "from_email": "antarctus@laposte.net",
+      "to": [
+          {
+            "email": "antarctus@laposte.net",
+            "name": "RECIPIENT NAME (OPTIONAL)",
+            "type": "to"
+          }
+        ],
+      "autotext": "true",
+      "subject": "YOUR SUBJECT HERE!",
+      "html": "YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!"
+    }
+  }
+ }).done(function(response) {
+   console.log(response); // if you're into that sorta thing
+ });	
+		</script>
+	</body>
+</html>
