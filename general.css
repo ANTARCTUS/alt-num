@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+html>*{
+	margin:0;
+	padding:0;
+	font-family: "Poppins", Helvetica ,sans-serif;
+	color:#fff;
+	background-color: #000;
+}
+
+pre {
+	background-color: #eee;
+	color:#111;
+	border-radius:10px;
+	padding: 10px;
+}
+pre.omega{
+	 background:linear-gradient(to left, #c53431, #eee 10%, #eee 90%,#c53431);
+}
+
+div{
+	margin: 40px 40px;
+}
+
+header{
+	background-color: #ffb734;
+	border-bottom:3px solid white;
+}
+
+footer {
+	background-color: #c53431;
+	border-top:3px solid white;
+  margin-bottom: 0px;
+}
+
+footer, header{
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul.social li{
+	display: inline;
+}
+
+img.media{
+	width:15%;
+}
+
+img.media:hover{
+	opacity:0.75;
+	transform:rotate(-5deg);
+}
+
+a{
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+}
