@@ -1,12 +1,13 @@
 
 a{
-	color:#0ff;
+	color: #0ff;
 }
 
 
 #workshop{
-	margin:10px 30px;
-	text-align:center;
+	margin: 10px 30px;
+	text-align: center;
+	min-height: 600px;
 }
 
 div.script {
@@ -14,12 +15,12 @@ div.script {
 	border-color:#fff;
 	border-radius: 20px;
 	border-style: solid;
-	color:#fff;
-	margin:1%;
+	color: #fff;
+	margin: 1%;
 	padding: 10px;
-	width:20%;
-	min-width:200px;
-	display:inline-block;
+	width: 20%;
+	min-width: 200px;
+	display: inline-block;
 	text-align: center;
 }
 
