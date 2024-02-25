@@ -265,11 +265,6 @@ var scripts = [
 		extension: "",
 		tags: ["graphics", "utility"],
 	}, {
-		name: "turtle_dessin",
-		author: "gengisclan",
-		extension: "",
-		tags: ["graphics", "utility"],
-	}, {
 		name: "disco",
 		author: "schraf",
 		extension: "",
